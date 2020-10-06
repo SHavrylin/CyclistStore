@@ -39,5 +39,7 @@ export class AddPageComponent implements OnInit {
     };
     console.log(this.form);
     this.productService.create(product).subscribe(res => console.log(res));
+    alert('product create success!');
+    this.form.reset();
   }
 }

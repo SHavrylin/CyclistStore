@@ -7,6 +7,7 @@ import {tap} from 'rxjs/operators';
   providedIn: 'root'
 })
 export class AuthService {
+  token: string;
 
   constructor(private http: HttpClient) {
   }

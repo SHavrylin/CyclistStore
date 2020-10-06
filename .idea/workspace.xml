@@ -16,13 +16,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21de1191-e214-4159-b79d-f64bb8b59a01" name="Default Changelist" comment="add form for adding product">
-      <change afterPath="$PROJECT_DIR$/src/app/shared/interfaces.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/shared/product.service.ts" afterDir="false" />
+    <list default="true" id="21de1191-e214-4159-b79d-f64bb8b59a01" name="Default Changelist" comment="add post service">
+      <change afterPath="$PROJECT_DIR$/src/app/shared/auth.interceptor.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/admin/add-page/add-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/add-page/add-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/main-layout/main-layout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/main-layout/main-layout.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <workItem from="1601897379133" duration="10570000" />
       <workItem from="1601972168209" duration="31000" />
       <workItem from="1601972348201" duration="4713000" />
-      <workItem from="1601977745689" duration="356000" />
+      <workItem from="1601977745689" duration="3176000" />
     </task>
     <task id="LOCAL-00001" summary="create 'Add-page'">
       <created>1601973226675</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601975313826</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add post service">
+      <created>1601978257392</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601978257392</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,9 +171,14 @@
     <MESSAGE value="create 'Add-page'" />
     <MESSAGE value="add quill" />
     <MESSAGE value="add form for adding product" />
-    <option name="LAST_COMMIT_MESSAGE" value="add form for adding product" />
+    <MESSAGE value="add post service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add post service" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1601978914352">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1019@0.0.1920.1019" timestamp="1601978914352" />
     <state x="739" y="263" key="FileChooserDialogImpl" timestamp="1601908597990">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
@@ -199,13 +211,17 @@
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
     <state x="461" y="154" key="SettingsEditor/0.0.1920.1019@0.0.1920.1019" timestamp="1601909779044" />
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1601975351233">
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1601978264288">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1019@0.0.1920.1019" timestamp="1601975351233" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1019@0.0.1920.1019" timestamp="1601978264288" />
     <state x="668" y="244" width="585" height="530" key="find.popup" timestamp="1601908697822">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
     <state x="668" y="244" width="585" height="530" key="find.popup/0.0.1920.1019@0.0.1920.1019" timestamp="1601908697822" />
+    <state x="1303" y="402" width="348" height="298" key="org.angular.cli.generate" timestamp="1601978007725">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="1303" y="402" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1019@0.0.1920.1019" timestamp="1601978007725" />
   </component>
 </project>
