@@ -23,8 +23,16 @@ export class ProductService {
       }));
   }
 
-  get(product) {
-    return this.http.get(``, product);
+  getAllProducts() {
+    return this.http.get(`${environment.fbDbUrl}/products.json`)
+      .pipe(map(res => {
+        return Object.keys(res)
+          .map(key => ({
+            ...res[key],
+            id: key,
+            date: new Date(res[key].date)
+          }));
+      }));
   }
 
   delete(product) {
