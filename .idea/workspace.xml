@@ -16,7 +16,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21de1191-e214-4159-b79d-f64bb8b59a01" name="Default Changelist" comment="" />
+    <list default="true" id="21de1191-e214-4159-b79d-f64bb8b59a01" name="Default Changelist" comment="create 'Add-page'">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/add-page/add-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/add-page/add-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/admin.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,8 +96,23 @@
       <updated>1601897370162</updated>
       <workItem from="1601897379133" duration="10570000" />
       <workItem from="1601972168209" duration="31000" />
-      <workItem from="1601972348201" duration="726000" />
+      <workItem from="1601972348201" duration="1980000" />
     </task>
+    <task id="LOCAL-00001" summary="create 'Add-page'">
+      <created>1601973226675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601973226675</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create 'Add-page'">
+      <created>1601973319536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601973319536</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +147,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="create 'Add-page'" />
+    <option name="LAST_COMMIT_MESSAGE" value="create 'Add-page'" />
   </component>
   <component name="WindowStateProjectService">
     <state x="739" y="263" key="FileChooserDialogImpl" timestamp="1601908597990">
@@ -138,26 +163,30 @@
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
     <state x="767" y="207" key="Github.UntrackedFilesDialog/0.0.1920.1019@0.0.1920.1019" timestamp="1601909678710" />
-    <state width="1899" height="276" key="GridCell.Tab.0.bottom" timestamp="1601972497613">
+    <state width="1899" height="276" key="GridCell.Tab.0.bottom" timestamp="1601973546551">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1019@0.0.1920.1019" timestamp="1601972497613" />
-    <state width="1899" height="276" key="GridCell.Tab.0.center" timestamp="1601972497612">
+    <state width="1899" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1019@0.0.1920.1019" timestamp="1601973546551" />
+    <state width="1899" height="276" key="GridCell.Tab.0.center" timestamp="1601973546550">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.center/0.0.1920.1019@0.0.1920.1019" timestamp="1601972497612" />
-    <state width="1899" height="276" key="GridCell.Tab.0.left" timestamp="1601972497611">
+    <state width="1899" height="276" key="GridCell.Tab.0.center/0.0.1920.1019@0.0.1920.1019" timestamp="1601973546550" />
+    <state width="1899" height="276" key="GridCell.Tab.0.left" timestamp="1601973546550">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.left/0.0.1920.1019@0.0.1920.1019" timestamp="1601972497611" />
-    <state width="1899" height="276" key="GridCell.Tab.0.right" timestamp="1601972497612">
+    <state width="1899" height="276" key="GridCell.Tab.0.left/0.0.1920.1019@0.0.1920.1019" timestamp="1601973546550" />
+    <state width="1899" height="276" key="GridCell.Tab.0.right" timestamp="1601973546550">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.right/0.0.1920.1019@0.0.1920.1019" timestamp="1601972497612" />
+    <state width="1899" height="276" key="GridCell.Tab.0.right/0.0.1920.1019@0.0.1920.1019" timestamp="1601973546550" />
     <state x="461" y="154" key="SettingsEditor" timestamp="1601909779044">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
     <state x="461" y="154" key="SettingsEditor/0.0.1920.1019@0.0.1920.1019" timestamp="1601909779044" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1601973381132">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1019@0.0.1920.1019" timestamp="1601973381132" />
     <state x="668" y="244" width="585" height="530" key="find.popup" timestamp="1601908697822">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>

@@ -9,6 +9,7 @@ import {OrdersPageComponent} from './orders-page/orders-page.component';
 import {EditPageComponent} from './edit-page/edit-page.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {AuthGuard} from '../shared/auth.guard';
+import {QuillModule} from 'ngx-quill';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {AuthGuard} from '../shared/auth.guard';
   ],
   imports: [
     CommonModule,
+    QuillModule.forRoot(),
     RouterModule.forChild([
       {
         path: '', component: AdminLayoutComponent, children: [
