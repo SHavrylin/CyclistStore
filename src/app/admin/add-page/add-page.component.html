@@ -16,12 +16,12 @@
   <div class="form-control">
     <label for="type">Type:</label>
     <select id="type" formControlName="type">
-      <option value="Phone">Phone</option>
-      <option value="Tablet">Tablet</option>
-      <option value="Laptop">Laptop</option>
+      <option value="MountainBikes">Mountain bikes</option>
+      <option value="CityBikes">City ​​bikes</option>
+      <option value="KidsBicycles">Kids bicycles</option>
     </select>
     <div *ngIf="form.get('type').touched && form.get('type').invalid" class="validation">
-      <small *ngIf="form.get('type').errors.required">Choose product type</small>
+      <small *ngIf="form.get('type').errors.required">Choose category type</small>
     </div>
   </div>
   <div class="form-control">

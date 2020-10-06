@@ -7,10 +7,9 @@ import {catchError} from 'rxjs/operators';
 
 @Injectable()
 export class AuthInterceptor implements HttpInterceptor {
-
   constructor(
     private auth: AuthService,
-    private rout: Router
+    private router: Router
   ) {
   }
 
@@ -22,15 +21,16 @@ export class AuthInterceptor implements HttpInterceptor {
         }
       });
     }
+
     return next.handle(req)
-      .pipe(catchError(error => {
+      .pipe(
+        catchError(error => {
           if (error.status === 401) {
             this.auth.logout();
-            this.rout.navigate(['/admin', 'login']);
+            this.router.navigate(['/admin', 'login']);
           }
           return throwError(error);
-        }
-      ));
+        })
+      );
   }
-
 }
