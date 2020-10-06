@@ -44,7 +44,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="ts.external.directory.path" value="D:\PROJECTS\AngProject\Shop\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="E:\Projects\AngProjects\node_modules\typescript\lib" />
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Tests (Shop)" type="JavaScriptTestRunnerKarma">
@@ -87,6 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601897370162</updated>
       <workItem from="1601897379133" duration="10570000" />
+      <workItem from="1601972168209" duration="31000" />
+      <workItem from="1601972348201" duration="726000" />
     </task>
     <servers />
   </component>
@@ -115,6 +117,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -135,22 +138,22 @@
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
     <state x="767" y="207" key="Github.UntrackedFilesDialog/0.0.1920.1019@0.0.1920.1019" timestamp="1601909678710" />
-    <state width="1899" height="277" key="GridCell.Tab.0.bottom" timestamp="1601909476091">
+    <state width="1899" height="276" key="GridCell.Tab.0.bottom" timestamp="1601972497613">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1019@0.0.1920.1019" timestamp="1601909476091" />
-    <state width="1899" height="277" key="GridCell.Tab.0.center" timestamp="1601909476090">
+    <state width="1899" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1019@0.0.1920.1019" timestamp="1601972497613" />
+    <state width="1899" height="276" key="GridCell.Tab.0.center" timestamp="1601972497612">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.center/0.0.1920.1019@0.0.1920.1019" timestamp="1601909476090" />
-    <state width="1899" height="277" key="GridCell.Tab.0.left" timestamp="1601909476090">
+    <state width="1899" height="276" key="GridCell.Tab.0.center/0.0.1920.1019@0.0.1920.1019" timestamp="1601972497612" />
+    <state width="1899" height="276" key="GridCell.Tab.0.left" timestamp="1601972497611">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.left/0.0.1920.1019@0.0.1920.1019" timestamp="1601909476090" />
-    <state width="1899" height="277" key="GridCell.Tab.0.right" timestamp="1601909476090">
+    <state width="1899" height="276" key="GridCell.Tab.0.left/0.0.1920.1019@0.0.1920.1019" timestamp="1601972497611" />
+    <state width="1899" height="276" key="GridCell.Tab.0.right" timestamp="1601972497612">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.right/0.0.1920.1019@0.0.1920.1019" timestamp="1601909476090" />
+    <state width="1899" height="276" key="GridCell.Tab.0.right/0.0.1920.1019@0.0.1920.1019" timestamp="1601972497612" />
     <state x="461" y="154" key="SettingsEditor" timestamp="1601909779044">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>

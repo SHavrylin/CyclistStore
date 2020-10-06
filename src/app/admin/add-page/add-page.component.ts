@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {FormControl, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-add-page',
@@ -6,10 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./add-page.component.scss']
 })
 export class AddPageComponent implements OnInit {
+  form: FormGroup;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
+    this.form = new FormGroup({
+      type: new FormControl(null, Validators.required),
+      title: new FormControl(null, Validators.required),
+      photo: new FormControl(null, Validators.required),
+      info: new FormControl(null, Validators.required),
+      price: new FormControl(null, Validators.required)
+    });
   }
 
 }
