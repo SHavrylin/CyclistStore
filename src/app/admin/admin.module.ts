@@ -7,9 +7,10 @@ import {DashboardPageComponent} from './dashboard-page/dashboard-page.component'
 import {AddPageComponent} from './add-page/add-page.component';
 import {OrdersPageComponent} from './orders-page/orders-page.component';
 import {EditPageComponent} from './edit-page/edit-page.component';
-import {ReactiveFormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {AuthGuard} from '../shared/auth.guard';
 import {QuillModule} from 'ngx-quill';
+import {SearchPipe} from '../shared/search.pipe';
 
 @NgModule({
   declarations: [
@@ -19,10 +20,13 @@ import {QuillModule} from 'ngx-quill';
     AddPageComponent,
     EditPageComponent,
     OrdersPageComponent,
+    SearchPipe,
 
   ],
   imports: [
     CommonModule,
+    ReactiveFormsModule,
+    FormsModule,
     QuillModule.forRoot(),
     RouterModule.forChild([
       {
@@ -36,7 +40,6 @@ import {QuillModule} from 'ngx-quill';
         ]
       }
     ]),
-    ReactiveFormsModule
   ],
   exports: [RouterModule]
 })

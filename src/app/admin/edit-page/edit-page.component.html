@@ -1,1 +1,54 @@
-<p>edit-page works!</p>
+<div *ngIf="form; else loading">
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <h2 class="text-center">Update product</h2>
+    <div class="form-control">
+      <label for="category">Category:</label>
+      <select id="category" formControlName="category">
+        <option value="Bicycles">Bicycles</option>
+        <option value="Components">Components</option>
+        <option value="Tools">Tools</option>
+        <option value="Clothes">Clothes</option>
+      </select>
+      <div *ngIf="form.get('category').touched && form.get('category').invalid" class="validation">
+        <small *ngIf="form.get('category').errors.required">Choose product category</small>
+      </div>
+    </div>
+    <div class="form-control">
+      <label for="type">Type:</label>
+      <select id="type" formControlName="type">
+        <option value="MountainBikes">Mountain bikes</option>
+        <option value="CityBikes">City ​​bikes</option>
+        <option value="KidsBicycles">Kids bicycles</option>
+      </select>
+      <div *ngIf="form.get('type').touched && form.get('type').invalid" class="validation">
+        <small *ngIf="form.get('type').errors.required">Choose category type</small>
+      </div>
+    </div>
+    <div class="form-control">
+      <label for="title">Name:</label>
+      <input id="title" type="title" formControlName="title">
+      <div *ngIf="form.get('title').touched && form.get('title').invalid" class="validation">
+        <small *ngIf="form.get('type').errors.required">Choose product name</small>
+      </div>
+    </div>
+    <div class="form-control">
+      <label for="type">Photo:</label>
+      <quill-editor formControlName="photo"></quill-editor>
+    </div>
+    <div class="form-control">
+      <label for="type">Info:</label>
+      <quill-editor formControlName="info"></quill-editor>
+    </div>
+    <div class="form-control">
+      <label for="price">Price:</label>
+      <input id="price" type="price" formControlName="price">
+      <div *ngIf="form.get('price').touched && form.get('price').invalid" class="validation">
+        <small *ngIf="form.get('price').errors.required">Enter product price</small>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block" [disabled]="form.invalid">Update product</button>
+  </form>
+</div>
+<ng-template #loading>
+  <p class="text-center">Loading...</p>
+</ng-template>
