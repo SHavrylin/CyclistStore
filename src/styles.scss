@@ -266,7 +266,7 @@ table th {
   }
 
   li.active a {
-    color:  #fff;
+    color: #fff;
     font-weight: bold;
     cursor: default;
     opacity: 1;
@@ -283,4 +283,9 @@ table th {
       opacity: 1;
     }
   }
+}
+
+.cardProduct {
+  width: 267px;
+  height: 167px;
 }
