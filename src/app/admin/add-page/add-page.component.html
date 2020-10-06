@@ -2,8 +2,20 @@
 <form [formGroup]="form" (ngSubmit)="submit()">
   <h2 class="text-center">Add product</h2>
   <div class="form-control">
+    <label for="category">Category:</label>
+    <select id="category" formControlName="category">
+      <option value="Bicycles">Bicycles</option>
+      <option value="Components">Components</option>
+      <option value="Tools">Tools</option>
+      <option value="Clothes">Clothes</option>
+    </select>
+    <div *ngIf="form.get('category').touched && form.get('category').invalid" class="validation">
+      <small *ngIf="form.get('category').errors.required">Choose product category</small>
+    </div>
+  </div>
+  <div class="form-control">
     <label for="type">Type:</label>
-    <select formControlName="type">
+    <select id="type" formControlName="type">
       <option value="Phone">Phone</option>
       <option value="Tablet">Tablet</option>
       <option value="Laptop">Laptop</option>
